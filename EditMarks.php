@@ -51,8 +51,7 @@
           </ul>
           </li>';
     } elseif ($row2['type'] == 2) {
-      echo '<li><a href="ViewFeedback.php">Anonymous Feedback</a></li>
-            </ul>
+      echo '</ul>
           </li>
           <li><a href="https://piazza.com/class/jcpjjp5l4bywd">Discussion Board</a></li>
           <li class="dropdown"><a href="#">Grades</a>

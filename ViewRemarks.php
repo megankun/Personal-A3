@@ -37,13 +37,12 @@
            </ul>
            </li>';
      } elseif ($row2['type'] == 2) {
-       echo '<li><a href="ViewFeedback.php">Anonymous Feedback</a></li>
-             </ul>
+       echo '</ul>
            </li>
            <li><a href="https://piazza.com/class/jcpjjp5l4bywd">Discussion Board</a></li>
            <li class="dropdown"><a href="#">Grades</a>
            <ul class="dropdown-content">
-             <li><a href="prof_grades.php">All Grades</a></li>
+             <li><a href="ta_marks.php">All Grades</a></li>
              <li><a href="ViewRemarks.php">Re-Marks</a></li>
              <li><a href="EditMarks.php">Edit Marks</a></li>
            </ul>
