@@ -1,0 +1,12 @@
+.sub-sec h2 {
+  padding-left: 10px;
+}
+
+.main-sec a:hover {
+  color: #366CA0;
+  text-shadow: 1px 1px #A8CAEB;
+}
+.main-sec li {
+  font-size: 12px;
+  padding: 3px;
+}

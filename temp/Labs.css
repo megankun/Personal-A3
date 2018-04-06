@@ -1,0 +1,17 @@
+.main-sec a:hover {
+  color: #366CA0;
+  text-shadow: 1px 1px #A8CAEB;
+}
+
+.head {
+  text-align: center;
+}
+.list-indent li{
+  margin-left: 10%;
+}
+/*.list-indent a:hover{
+  width: 100%;
+  padding: 2px;
+  border-radius: 4px;
+  background-color: rgba(98, 166, 203, 0.5);
+}*/

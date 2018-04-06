@@ -1,0 +1,146 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+a {
+  text-decoration: none;
+  color:#FFFFFF;
+}
+body {
+  width: auto;
+  font-family: Verdana, Geneva, sans-serif;
+  background: #FFFFFF;
+  color: #3E464A;
+}
+ hr {
+   width: 50%;
+ }
+ p{
+   font-size: 12px;
+   padding-left: 5%;
+   padding-right: 5%;
+ }
+ small {
+   color: #FFFFFF;
+ }
+/* HEADER */
+.header {
+  width: 100%;
+  height: 100px;
+  background: #3E464A;
+  color:#FFFFFF;
+  left: 0;
+  position: fixed;
+  margin-bottom: 50px;
+  top: 0;
+}
+.header h1 {
+  text-align: center;
+  display: block;
+  margin-top: 0px;
+}
+.header .links li{
+  display: inline-block;
+  padding: 10px;
+  float: left;
+  margin-left: 2%;
+  position: relative;
+  border-radius: 4px;
+}
+.header .links .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:#3E464A;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  margin-top: 10px;
+}
+.header .links .dropdown-content li{
+  width: 100%;
+  margin-left: -10px;
+  padding: -5px;
+}
+.header .dropdown:hover .dropdown-content{
+  display: block;
+  cursor: pointer;
+}
+.header li:hover{
+  /*background-color: #E0DDDD;*/
+  background-color: #62A6CB;
+  color: white;
+}
+.header ul {
+  margin-left: 5%;
+}
+/* FOOTER */
+.footer {
+  background-color: #3E464A;
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  width: 80%;
+  margin-left: 10%;
+  overflow:hidden;
+  color: #62A6CB
+}
+
+/* MAIN */
+.main-sec {
+  margin: 120px;
+}
+.main-sec h1 {
+  text-align: center;
+}
+.main-sec hr {
+  width: 100%;
+}
+.main-sec a{
+  color: #3E464A;
+}
+.sub-sec {
+  border: 0.2px solid #CACACA;
+  box-shadow: 2px 2px #DDDBDB;
+  background: #FFF5F5;
+  margin: 2%;
+}
+.sub-sec:hover {
+  border: 0.2px solid #A8CAEB;
+  box-shadow: 5px 5px #DDDBDB;
+}
+.indented {
+  padding: 1%;
+}
+@media screen and (max-width: 1000px) {
+  .header {
+    height: 150px;
+    margin-bottom: 100px;
+  }
+  .main-sec {
+    margin-top: 180px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .header {
+    height: 200px;
+  }
+  .header .links li {
+    display: block;
+    margin-left: 50px;
+  }
+  .main-sec {
+    margin-top: 220px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header {
+    height: 300px;
+  }
+  .main-sec {
+    margin-top: 320px;
+  }
+}
